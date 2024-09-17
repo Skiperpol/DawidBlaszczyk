@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -914,6 +918,10 @@ video {
     flex-direction: row;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:gap-6 {
     gap: 1.5rem;
   }
@@ -926,6 +934,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:sticky {
     position: sticky;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
   }
 
   .lg\:h-screen {
@@ -942,5 +954,9 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
   }
 }
