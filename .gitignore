@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+package-lock.json
+package.json
+
+# Tailwind CSS
+tailwind.config.js
+
+# Python virtual environment
+venv/
+
+# Możesz także dodać inne pliki i katalogi, które nie powinny być wersjonowane
+*.log
+.DS_Store
